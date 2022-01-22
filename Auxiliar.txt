@@ -1,0 +1,16 @@
+# Comandos Básicos para Base de Datos MySQL
+# Estos son algunos comando útiles usados por MySQL para manejar bases de datos. 
+# Listado básico donde se da una explicación básica para utilizar Mysql.
+#
+# show databases; – Listar todas las bases de datos. Ok
+# connect [database]; – Conectarse a esa base de datos. 
+# show tables; – Listar todas las tablas de una base de datos. ok
+# show table status; – Muestra información sobre las tablas de la base de datos. ok
+# describe [table]; – Muestra la estructura de una tabla de la base de datos. ok
+#   Ejemplo:  DESCRIBE alumnos; con esta instrucción se muestra la estructura de la tabla
+# use [db]; Nota: No se utilizan los corchetes solo es para delimitar el nombre
+# SELECT VERSION(), CURRENT_DATE;  * Permite conocer la versión y la fecha de mySQL
+# select version();  ----    current_date; son equivalentes, pueden usarse por separado
+# select now();  da la fecha y hora actual. ok
+# Si se entra a modo de consulta (->) puede salirse utilizando "\c"
+# 
