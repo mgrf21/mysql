@@ -1,4 +1,37 @@
-# Comandos Básicos para Base de Datos MySQL
+# Ingreso como usuario root
+# Para ingresar como usuario root se utiliza el comando:
+#   sudo -i                     # Se ingresa contraseña de equipo
+
+# Actualización de paquetes en ubuntu
+# Se utilza el siguiente comando:    
+#       sudo apt update
+
+# Instalación del paquete mysql-server
+# Para instalar el paquete mysql-server, se utiliza: 
+#   sudo apt install mysql-server
+
+#Verificación de la Instalación
+# Para verificar la instalación se utiliza:   
+#   mysql --version
+
+# Creación de un nuevo usuario:
+# Se utiliza el siguiente comando: 
+#      CREATE USER 'usuariotabla'@'localhost' IDENTIFIED BY 'pass1234';
+
+# Creación de la Base de datos
+#       CREATE DATABASE datos;
+
+# Accesar a la base de datos
+#       use datos;
+
+# Creación de la tabla para almacenar los valores:
+#       CREATE TABLE alumnos (id INT, nombre VARCHAR(20), apellido VARCHAR(20), matricula VARCHAR(10));
+
+# Agrefar un valor a la tabla para verificar correcto funcionamiento
+#       INSERT INTO alumnos VALUES (0,'Manuel','Mendoza','21530324');
+
+#Comandos Básicos para Base de Datos MySQL
+
 # Estos son algunos comando útiles usados por MySQL para manejar bases de datos. 
 # Listado básico donde se da una explicación básica para utilizar Mysql.
 #
